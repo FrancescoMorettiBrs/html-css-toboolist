@@ -19,6 +19,7 @@ body {
 .container {
     width: 60%;
     margin: 0 auto;
+    align-items: center ;
 }
 
 /* Header */
@@ -42,7 +43,7 @@ header {
     margin-top: 100px;
     padding: 5px 5px;
     margin-right: 5px;
-    background-color: rgb(65, 105, 225);
+    background-color: rgb(11, 109, 238);
     border-radius: 10%;
 }
 
@@ -74,9 +75,33 @@ header {
     display: inline-block;
     margin-left: 40px;
     margin-top: 40px;
+    list-style: none;
+}
+
+.list-ul {
+    text-align: left;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 .title-ol {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    margin-top: 25px;
+}
+
+.task-ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.editorial {
+    border: 1px solid rgb(38, 122, 233);
+    background-color: rgb(38, 122, 233);
+    border-radius: 20%;
+    padding: 5px;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
 }
