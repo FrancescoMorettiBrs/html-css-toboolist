@@ -46,10 +46,13 @@ header {
     background-color: rgb(11, 109, 238);
     border-radius: 10%;
 }
-
+/* Buttons */
 .bg-bt {
-    padding: 0px 0px 0px 70px;
-
+    background-color: white;
+    padding: 15px 0px 15px 70px;
+    border-radius: 5px;
+    margin-top: 100px;
+    
 }
 
 .bt-section {
@@ -57,15 +60,15 @@ header {
     margin-right: 5px;
     background-color: rgb(240, 237, 237);
     border-radius: 10%;
-    color: lightgray;
+    color: rgb(211, 211, 211);
 }
 
 .bg-main {
     height: 800px;
-    width: 800px;
-    background-color: white;
+    width: auto;
+    background-color: rgb(255, 255, 255);
     border-radius: 1%;
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 /* Lista */
@@ -96,9 +99,80 @@ header {
     list-style: none;
 }
 
+/* Design list */
+.circle-cross {
+    color: rgb(255, 0, 0);
+    width: 24px;  
+    height: 24px; 
+    border-radius: 50%;
+    border: 1px solid rgb(255, 0, 0);
+    display: inline-flex;
+    justify-content: center;
+}
+
+.circle-check {
+    color: rgb(0, 128, 0);
+    width: 24px;  
+    height: 24px; 
+    border-radius: 50%;
+    border: 1px solid rgb(0, 128, 0);
+    display: inline-flex;
+    justify-content: center;
+}
+
 .editorial {
     border: 1px solid rgb(38, 122, 233);
     background-color: rgb(38, 122, 233);
+    border-radius: 20%;
+    padding: 5px;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+}
+
+.q1-goals {
+    border: 1px solid rgb(193, 29, 199);
+    background-color: rgb(193, 29, 199);
+    border-radius: 20%;
+    padding: 5px;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+}
+
+.recruiting {
+    border: 1px solid rgb(22, 165, 129);
+    background-color: rgb(22, 165, 129);
+    border-radius: 20%;
+    padding: 5px;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+}
+
+.mobile {
+        border: 1px solid rgb(250, 175, 12);;
+        background-color: rgb(250, 175, 12);
+        border-radius: 20%;
+        padding: 5px;
+        font-size: 14px;
+        display: inline-block;
+        color: white;
+}
+
+.website  {
+    border: 1px solid rgb(224, 13, 136);
+    background-color: rgb(224, 13, 136);
+    border-radius: 20%;
+    padding: 5px;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+}
+
+.sales  {
+    border: 1px solid rgb(90, 197, 3);
+    background-color: rgb(90, 197, 3);
     border-radius: 20%;
     padding: 5px;
     font-size: 14px;
