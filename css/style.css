@@ -39,14 +39,17 @@ header {
 }
 
 /* Main */
+/* Buttons */
 .bt-task{
-    padding: 5px 10px;
+    padding: 8px 10px;
     margin-right: 5px;
     background-color: rgb(11, 109, 238);
     border-radius: 10%;
     color: rgb(255, 255, 255);
+    border: none;
+
 }
-/* Buttons */
+
 .bg-bt {
     background-color: rgb(255, 255, 255);
     padding: 15px 0px 15px 70px;
@@ -56,10 +59,11 @@ header {
 }
 
 .bt-section {
-    padding: 5px 10px;
+    padding: 8px 10px;
     background-color: rgb(240, 237, 237);
     border-radius: 10%;
     color: rgb(211, 211, 211);
+    border: none;
 }
 
 .bg-main {
@@ -86,6 +90,11 @@ header {
     margin-top: 10px;
     font-size: 16px;
 }
+.first-title-ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
 
 .title-ol {
     font-family: Arial, Helvetica, sans-serif;
@@ -120,11 +129,12 @@ header {
 }
 
 .badge {
-    border-radius: 10%;
-    padding: 5px;
-    font-size: 14px;
+    border-radius: 35px;
+    padding: 7px;
+    font-size: 13px;
     display: inline-block;
     color: white;
+    font-weight: bold;
 } 
 
 .editorial {
